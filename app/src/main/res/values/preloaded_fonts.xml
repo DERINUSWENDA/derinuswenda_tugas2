@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alumni_sans_collegiate_one</item>
+        <item>@font/candal</item>
+        <item>@font/days_one</item>
+        <item>@font/dm_serif_display</item>
+        <item>@font/lexend</item>
+        <item>@font/montserrat_alternates</item>
+    </array>
+</resources>
