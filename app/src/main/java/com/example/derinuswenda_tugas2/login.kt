@@ -17,29 +17,6 @@ class login : AppCompatActivity() {
 
 
 
-        val btnLogin= findViewById<Button>(R.id.btnLogin)
-
-        val btnRegister= findViewById<TextView>(R.id.textRegister)
-
-        val forgot = findViewById<TextView>(R.id.textForgot)
-
-        // Ketika tombol diklik, pindah ke LoginActivity
-
-        btnLogin.setOnClickListener {
-            val intent = Intent(this, home::class.java)
-            startActivity(intent)
-        }
-
-        forgot.setOnClickListener {
-            val intent = Intent(this, ResetPasword::class.java)
-            startActivity(intent)
-        }
-
-        // Ketika tombol diklik, pindah ke LoginActivity
-        btnRegister.setOnClickListener {
-            val intent = Intent(this, register::class.java)
-            startActivity(intent)
-        }
 
     }
 }
