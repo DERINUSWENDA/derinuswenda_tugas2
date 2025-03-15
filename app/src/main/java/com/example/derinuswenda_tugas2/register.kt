@@ -16,23 +16,7 @@ class register : AppCompatActivity() {
         setContentView(R.layout.activity_register)
 
 
-        val btnregister= findViewById<Button>(R.id.register)
-
-        val btnlogin= findViewById<TextView>(R.id.textLogin)
-
-        // Ketika tombol diklik, pindah ke LoginActivity
-
-        btnlogin.setOnClickListener {
-            val intent = Intent(this, login::class.java)
-            startActivity(intent)
-        }
-
-
-        // Ketika tombol diklik, pindah ke LoginActivity
-        btnregister.setOnClickListener {
-            val intent = Intent(this, home::class.java)
-            startActivity(intent)
-        }
+ 
 
     }
 }
